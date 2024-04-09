@@ -20,7 +20,7 @@ class Leaf implements Component {
     }
 }
 
-class Composite implements Component {
+class   Composite implements Component {
     private String name;
     private List<Component> components = new ArrayList<>();
 
